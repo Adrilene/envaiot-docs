@@ -1,0 +1,28 @@
+{
+  "name": "godocs",
+  "version": "1.0.0",
+  "description": "godocs free documentation template",
+  "author": "Themefisher",
+  "homepage": "https://adrilene.github.io/envaiot-docs/",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d theme"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-header-comment": "^0.10.0",
+    "gulp-rimraf": "^1.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.52.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
